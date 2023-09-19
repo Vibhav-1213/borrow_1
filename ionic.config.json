@@ -1,0 +1,7 @@
+{
+  "name": "borrow",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
