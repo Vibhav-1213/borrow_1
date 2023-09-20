@@ -36,7 +36,7 @@ class DonatePage extends StatelessWidget {
                     mainAxisSize: MainAxisSize.max,
                     children: [
                       IconButton(onPressed: (){
-                        Navigator.push(context, MaterialPageRoute(builder: (context) => HomeScreen()));
+                        Navigator.pop(context);
                       }, icon: Icon(Icons.arrow_back_ios_new_rounded,color: Colors.white,)),
                       Text("Donate",style: TextStyle(color: Colors.white,fontSize: 24.5),),
                       IconButton(onPressed: (){
